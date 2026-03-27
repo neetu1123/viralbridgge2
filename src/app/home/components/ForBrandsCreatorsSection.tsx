@@ -41,7 +41,7 @@ export default function ForBrandsCreatorsSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-14">
           <h2 className="font-display text-[32px] lg:text-[40px] font-700 text-heading tracking-tight leading-tight">
-            Built for both sides<br />of the deal
+           Only Pay for What Works — Views, <br /> Clicks, or Conversions
           </h2>
           <p className="text-[17px] text-sub mt-4 max-w-xl mx-auto">
             Whether you are a brand chasing ROI or a creator building income — ViralBridgge works for you.
@@ -87,7 +87,7 @@ export default function ForBrandsCreatorsSection() {
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-white/15 rounded-xl flex items-center justify-center text-white text-lg">✨</div>
               <div>
-                <p className="text-xs font-semibold text-primary-light uppercase tracking-wider">For Creators</p>
+                <p className="text-xs font-semibold text-white uppercase tracking-wider">For Creators</p>
                 <h3 className="font-display text-[22px] font-700 text-white">Monetize your content</h3>
               </div>
             </div>

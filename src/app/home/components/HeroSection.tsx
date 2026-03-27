@@ -63,11 +63,11 @@ export default function HeroSection() {
             {/* Headline */}
             <div className="animate-clip-in delay-100">
               <h1 className="font-display text-[52px] lg:text-[60px] font-700 leading-[1.08] tracking-tight text-heading">
-                Launch Influencer<br />
-                Campaigns in{' '}
-                <span className="text-gradient-primary">Minutes</span>
+                From Launch to<br />  
+                Viral — In{' '}
+                <span className="text-gradient-primary">Minutes,</span>
                 <br />
-                <span className="text-[42px] lg:text-[50px] font-300 text-sub">— Not Weeks</span>
+                <span className="text-[42px] lg:text-[50px] font-300 text-sub">Not Weeks</span>
               </h1>
             </div>
 

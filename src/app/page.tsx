@@ -20,10 +20,10 @@ export default function HomePage() {
       <Header />
       <HeroSection />
       <SocialProofSection />
+      <ForBrandsCreatorsSection />
       <FeaturesSection />
       <LiveActivitySection />
       <CreatorMarketplaceSection />
-      <ForBrandsCreatorsSection />
       <HowItWorksSection />
       <CaseStudiesSection />
       <AnalyticsDashboardSection />
