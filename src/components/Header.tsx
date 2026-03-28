@@ -22,15 +22,15 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          {/* <AppLogo
-            size={32}
-            iconName="BoltIcon"
+          <AppLogo
+            src="/logo-viral-bridge.jpeg"
+            size={110}
             className="text-primary"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          /> */}
-          <span className="font-display font-800 text-lg tracking-tight gradient-text">
+          />
+          {/* <span className="font-display font-800 text-lg tracking-tight gradient-text">
             Viralbridgge
-          </span>
+          </span> */}
         </Link>
 
         {/* Nav Links */}

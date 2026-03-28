@@ -70,11 +70,11 @@ export default function PricingSection() {
   }, []);
 
   return (
-    <section id="pricing" className="section-padding bg-bg-base">
+    <section id="pricing" className="section-padding" >
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center max-w-xl mx-auto mb-14">
           <span className="badge badge-primary mb-4">Pricing</span>
-          <h2 className="font-display text-[32px] lg:text-[40px] font-700 text-heading tracking-tight leading-tight">
+          <h2 className="font-display  text-[32px] lg:text-[40px] font-700 text-heading tracking-tight leading-tight">
             Transparent pricing,<br />zero surprises
           </h2>
           <p className="text-[17px] text-sub mt-4">

@@ -10,7 +10,7 @@
   --primary-dark: #3B2FD9;
   --cta: #F22A57;
   --cta-hover: #D61F48;
-  --bg-base: #F8FAFF;
+  --bg-base: #F7F8FC;
   --bg-alt: #EEF2FF;
   --bg-accent: #E3EDFC;
   --text-heading: #111827;
@@ -23,6 +23,7 @@
   --shadow-md: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
   --shadow-lg: 0 12px 40px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.04);
   --shadow-primary: 0 8px 24px rgba(78,64,241,0.18);
+ --bg-surface: #0F172A
 }
 
 html {
@@ -36,6 +37,7 @@ html {
 }
 
 body {
+  /* background: linear-gradient(135deg, #6A00F4, #D000FF, #FF7A00); */
   font-family: 'Manrope', sans-serif;
   background-color: var(--bg-base);
   color: var(--text-heading);
@@ -48,7 +50,9 @@ body {
 .font-display {
   font-family: 'DM Sans', sans-serif;
 }
-
+.priceSection {
+  background-color: var(--bg-surface);
+}
 .text-gradient-primary {
   background: linear-gradient(135deg, #4E40F1 0%, #3B82F6 100%);
   -webkit-background-clip: text;
@@ -117,6 +121,10 @@ body {
   to { stroke-dashoffset: 0; }
 }
 
+footer {
+  background: var(--bg-surface);
+  color: var(--text-sub);
+}
 .animate-clip-in {
   animation: clipIn 0.9s cubic-bezier(0.25, 1, 0.5, 1) both;
 }
